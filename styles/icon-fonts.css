@@ -25,13 +25,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-add-plus:before {
+.icon-addPlus:before {
   content: "\e900";
 }
-.icon-arrow-left:before {
+.icon-arrowLeft:before {
   content: "\e901";
 }
-.icon-arrow-right:before {
+.icon-arrowRight:before {
   content: "\e902";
 }
 .icon-calendar:before {
@@ -43,7 +43,7 @@
 .icon-close:before {
   content: "\e905";
 }
-.icon-credit-card:before {
+.icon-creditCard:before {
   content: "\e906";
 }
 .icon-download:before {
@@ -55,13 +55,13 @@
 .icon-home:before {
   content: "\e909";
 }
-.icon-home-active:before {
+.icon-homeActive:before {
   content: "\e90a";
 }
 .icon-library:before {
   content: "\e90b";
 }
-.icon-library-active:before {
+.icon-libraryActive:before {
   content: "\e90c";
 }
 .icon-music:before {
@@ -85,18 +85,18 @@
 .icon-search:before {
   content: "\e913";
 }
-.icon-search-active:before {
+.icon-searchActive:before {
   content: "\e914";
 }
 .icon-vector:before {
   content: "\e915";
 }
-.icon-volume-down:before {
+.icon-volumeDown:before {
   content: "\e916";
 }
-.icon-volume-off:before {
+.icon-volumeOff:before {
   content: "\e917";
 }
-.icon-volume-up:before {
+.icon-volumeUp:before {
   content: "\e918";
 }
