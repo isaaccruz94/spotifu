@@ -1,0 +1,22 @@
+@import "./icon-fonts.css";
+@import "./fonts.css";
+@import "./body.css";
+@import "./link.css";
+
+:root{
+    --primary: #00B050;
+    --white: #ffffff;
+    --gray10: #B3B3B3;
+    --gray20: #737373;
+    --gray30: #282828;
+    --gray40: #181818;
+    --gray50: #121212;
+    --gray60: #000000;
+    --font: Avenir, Helvetica, sans-serif;
+    -headline1: bold 2rem/normal var(--font);
+    -headline2: bold 1.5rem/1.75rem var(--font);
+    -baseFont: normal .875rem/1.375rem var(--font);
+    -baseFontBold: bold .875rem/1.375rem var(--font);
+    -button: bold .875rem/1rem var(--font);
+    -button: bold .75em/1rem var(--font);
+}
