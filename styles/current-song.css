@@ -1,0 +1,29 @@
+.currentSong{
+    display: flex;
+    gap: .5rem;
+}
+.currentSong-cover img{
+    block-size: 3.5rem;
+    aspect-ratio: 1/1;
+    display: block;
+}
+.currentSong-details{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+    .currentSong-info{
+
+    }
+        .currentSong-title{
+            font: var(--baseFontBold);
+            color: var(--white);
+            display: block;
+        }
+        .currentSong-artist{
+            font: var(--small);
+            color: var(--gray10);
+        }
+    .currentSong-like{
+
+    }
