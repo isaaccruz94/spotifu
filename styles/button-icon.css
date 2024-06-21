@@ -12,8 +12,8 @@
     color: var(--gray50);
 }
 .buttonIcon.is-primary{
-    background-color: var(--white);
-    color: var(--white);
+    background-color: var(--primary);
+    color: var(--gray50);
 }
 .buttonIcon .icon-play{
     position: relative;

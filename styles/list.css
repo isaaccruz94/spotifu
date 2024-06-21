@@ -18,6 +18,3 @@
     font: var(--baseFontBold);
     transition: color .3s;
 }
-.list-item a:hover{
-    text-decoration: none;
-}
