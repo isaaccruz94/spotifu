@@ -5,6 +5,7 @@
 @import "./navigation.css";
 @import "./header.css";
 
+
 .page{
     padding-inline: 2.5em;
     padding-block-end: 2em;
@@ -18,4 +19,7 @@
 .page .header{
     margin-block-end: 1rem;
     margin-inline: -2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
 }

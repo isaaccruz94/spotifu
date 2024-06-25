@@ -1,0 +1,29 @@
+.header-navigation{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.header-profile-content{
+    background-color: var(--gray60);
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    padding-block: .25rem;
+    padding-inline-end: .5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.header-cover{
+    inline-size: 1.75rem;
+    block-size: 1.75rem;
+    clip-path: circle(50% at 50% 50%);
+}
+.header-text{
+    color: var(--white);
+    margin: 0;
+}
+.header-icon i{
+    font-size: .5rem;
+    color: var(--white);
+    margin-inline: .5rem;
+}

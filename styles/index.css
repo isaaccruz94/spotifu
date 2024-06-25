@@ -9,6 +9,7 @@
 @import "./sticky.css";
 @import "./page.css";
 @import "./layout.css";
+@import "./scrollbar.css";
 
 
 :root{
@@ -27,4 +28,17 @@
     --baseFontBold: bold .875rem/1.375rem var(--font);
     --button: bold .875rem/1rem var(--font);
     --small: normal .75em/1rem var(--font);
+}
+.debug{
+    box-shadow: inset 0 0 0 .5rem red !important;
+}
+@media screen and (min-width: 768px){
+    :root{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1367px){
+    :root{
+        font-size: 18px;
+    }
 }
