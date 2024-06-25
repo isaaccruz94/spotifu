@@ -1,0 +1,31 @@
+:root{
+    --sidebarInLineSize: 15rem;
+    --minBlockSize: 37.5rem;
+    --minInLineSize: 48rem;
+    --bottomSize: 5.75rem;
+}
+.layout{
+    min-inline-size: var(--minInLineSize);
+}
+.layout-block{
+    display: flex;
+}
+.layout-block .layout-sidebar{
+    order: -1;
+}
+.layout-page{
+    block-size: calc(100vh - var(--bottomSize));
+    overflow: auto;
+    min-block-size: var(--minBlockSize);
+}
+.layout-sidebar{
+    inline-size: var(--sidebarInLineSize);
+    block-size: calc(100vh - var(--bottomSize));
+    overflow: auto;
+    flex-shrink: 0;
+    min-block-size: var(--minBlockSize);
+}
+.layout-player{
+    block-size: var(--bottomSize);
+    flex: 1;
+}

@@ -6,9 +6,9 @@
 @import "./button-icon.css";
 @import "./sidebar.css";
 @import "./player.css";
-@import "./playlist-a.css";
-@import "./playlist-b.css";
-@import "./playlist-list.css";
+@import "./sticky.css";
+@import "./page.css";
+@import "./layout.css";
 
 
 :root{
