@@ -1,0 +1,32 @@
+.form-buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.buttons-navigation{
+    display: flex;
+    gap: .5rem;
+}
+.form{
+    position: relative;
+}
+.form i{
+    position: absolute;
+    inset-inline-start: .5rem;
+    inset-block-start: calc(50% - .5rem);
+    font-size: 1rem;
+}
+.form:focus-within i{
+    color: var(--gray60);
+}
+.form input{
+    border: none;
+    inline-size: 22rem;
+    border-radius: 1rem;
+    padding-inline: 2rem;
+    padding-block: .5rem;
+    color: var(--gray60);
+}
+.form input::placeholder{
+    color: var(--gray10);
+}

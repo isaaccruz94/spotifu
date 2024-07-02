@@ -1,0 +1,11 @@
+@import "logo.css";
+@import "menu-list.css";
+@import "list-playlist.css";
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-block: 1.25rem;
+    background-color: var(--gray60);
+}

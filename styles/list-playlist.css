@@ -1,0 +1,56 @@
+.library{
+    padding-inline: 1.5rem;
+}
+.library-title{
+    margin: 0;
+    font: var(--baseFont);
+}
+.library-list{
+    padding: 0;
+    margin: 0;
+}
+.library-item{
+    font: var(--baseFontBold);
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.library-item a{
+    transition: color .2s;
+}
+.library-item a:hover{
+    color: var(--white);
+}
+
+.playlist{
+    padding-inline: 1.5rem;
+}
+.playlist-title{
+    margin: 0;
+    font: var(--baseFont);
+}
+.playlist-list{
+    padding: 0;
+    margin: 0;
+}
+.playlist-item{
+    font: var(--baseFontBold);
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.playlist-item a:hover{
+    color: var(--white);
+}
+.playlist-item{
+    font: var(--baseFontBold);
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.playlist-item a{
+    transition: color .2s;
+}

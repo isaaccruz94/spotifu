@@ -1,0 +1,33 @@
+.userProfile{
+    inline-size: 11.25rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: var(--gray60);
+    border-radius: 2.5rem;
+}
+.userProfile-cover{
+    inline-size: 2rem;
+    block-size: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.userProfile-cover img{
+    inline-size: 100%;
+    block-size: 100%;
+}
+.userProfile-name{
+    color: var(--white);
+}
+.userProfile-name p{
+    margin: 0;
+}
+.userProfile button{
+    padding: 0.62rem;
+    background: none;
+    border: none;
+}
+.userProfile i{
+    font-size: .5rem;
+    color: var(--white);
+}

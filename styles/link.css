@@ -1,0 +1,10 @@
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.link.is-white:hover{
+    color: var(--white);
+}

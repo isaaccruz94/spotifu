@@ -1,0 +1,42 @@
+.listB{
+    inline-size: 11.37rem;
+    background-color: var(--gray40);
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    transition: background .3s;
+}
+.listB:hover,
+.listB:focus-within{
+    background-color: var(--gray30);
+}
+.listB-cover{
+    inline-size: 9.37rem;
+    block-size: 9.37rem;
+    margin-block-end: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    position:relative
+}
+.listB-cover button{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    opacity: 0;
+    transition: opacity .3s;
+}
+.listB:hover button,
+.listB:focus-within button{
+    opacity: 1;
+}
+.listB-cover img{
+    inline-size: 100%;
+    block-size: 100%;
+}
+.listB p{
+    margin: 0;
+}
+.listB-title{
+    font: var(--baseFontBold);
+    color: var(--white);
+}

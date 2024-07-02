@@ -1,0 +1,26 @@
+.song{
+    display: flex;
+    gap: .5rem;
+}
+.song-cover{
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+}
+.song-cover img{
+    inline-size: 100%;
+    block-size: 100%;
+}
+.song-info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.song-title{
+    margin: 0;
+    font: var(--baseFontBold);
+    color: white;
+}
+.song-artist{
+    margin: 0;
+    font: var(--small);
+}

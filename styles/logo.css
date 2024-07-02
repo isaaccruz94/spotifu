@@ -1,0 +1,9 @@
+.logo-cover{
+    inline-size: 7rem;
+    block-size: 2rem;
+    padding-inline: 1rem;
+}
+.logo-cover img{
+    inline-size: 100%;
+    block-size: 100%;
+}

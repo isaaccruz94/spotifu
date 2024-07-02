@@ -1,0 +1,27 @@
+@import "song.css";
+@import "reproductor-button.css";
+@import "reproductor-progress.css";
+@import "volume.css";
+
+.reproductor{
+    display: flex;
+    align-items: center;
+    background-color: var(--gray40);
+    padding: 1rem;
+}
+.reproductor > *{
+    flex: 1;
+}
+
+.reproductor-slider{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    align-items: center;
+}
+.reporductor-progress{
+    inline-size: 100%;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}

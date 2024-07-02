@@ -1,0 +1,33 @@
+.progress{
+    flex: 1;
+    block-size: .25rem;
+    background: rgba(255, 255,255,.4);
+    border-radius: 1rem;
+    position: relative;
+    bottom: 1px;
+    cursor: pointer;
+}
+.progress-time{
+    inline-size: 50%;
+    block-size: inherit;
+    background: var(--white);
+    border-radius: inherit;
+    position: relative;
+}
+.progress:hover .progress-time{
+    background-color: var(--primary);
+}
+.progress:hover .progress-button{
+    opacity: 1;
+}
+.progress-button{
+    background-color: var(--white);
+    block-size: 200%;
+    aspect-ratio: 1/1;
+    position: absolute;
+    inset-inline-start: 100%;
+    inset-block-start: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 0;
+}

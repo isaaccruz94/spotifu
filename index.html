@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotifu</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preload" href="/styles/index.css" as="style">
+    <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body class="body">
+    <div class="layout">
+        <div class="layout-block">
+            <div class="layout-main">
+                <div class="main">
+                    <header class="header">
+                        <div class="header-navigation">
+                            <div class="form-buttons">
+                                <div class="buttons-navigation">
+                                    <button class="buttonGeneric" aria-label="Ir Atras" title="Ir Atras">
+                                        <i class="icon-arrowLeft" aria-hidden="true"></i>
+                                    </button>
+                                    <button class="buttonGeneric" aria-label="Ir Adelante" title="Ir Adelante">
+                                        <i class="icon-arrowRight" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <form class="form" aria-label="Busqueda por Artista, Canciones o Podcast">
+                                    <i class="icon-search" aria-hidden="true"></i>
+                                    <input type="search" placeholder="Artistas, Canciones o Podcast">
+                                </form>
+                            </div>
+                            <div class="userProfile">
+                                <div class="userProfile-cover">
+                                    <img src="./images/profile.avif" alt="Foto de perfil" title="Foto de perfil" width="28" height="28">
+                                </div>
+                                <div class="userProfile-name">
+                                    <p><a class="link" href="">Cruz Herrera</a></p>
+                                </div>
+                                <button aria-label="Desplegar" title="Desplegar">
+                                    <i class="icon-vector" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </header>
+                    <main>
+                        <div class="main-section">
+                            <section aria-labelledby="section1">
+                                <div class="section">
+                                    <div class="section-nav">
+                                        <h2 id="section1" class="section-title">Buenas noches</h2>
+                                        <div class="buttons-navigation">
+                                            <button class="buttonGeneric" aria-label="Ir Atras" title="Ir Atras">
+                                                <i class="icon-arrowLeft" aria-hidden="true"></i>
+                                            </button>
+                                            <button class="buttonGeneric" aria-label="Ir Adelante" title="Ir Adelante">
+                                                <i class="icon-arrowRight" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="section-listA">
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/liked-songs.avif" alt="Tus Me Gusta" title="Tus Me Gusta" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">Tus Me Gusta</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/artist-acdc.avif" alt="This is ACDC" title="This is ACDC" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">This is AC/DC</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/artist-awolnation.avif" alt="This is AWOLNATION" title="This is AWOLNATION" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">This is AWOLNATION</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/artist-coldplay.avif" alt="Coldplay" title="Coldplay" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">Coldplay</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/artist-kingsofleon.avif" alt="Kings of Leon" title="Kings of Leon" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">Kings of Leon</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/artist-residente.avif" alt="Residente" title="Residente" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">Residente</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/artist-motorama.avif" alt="Motorama" title="Motorama" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">Motorama</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/artist-riseagainst.avif" alt="Rise Against" title="Rise Against" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">Rise Against</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/cd-entren-los-que-quieran-entrar.avif" alt="Entren Los Que Quieran Entrar" title="Entren Los Que Quieran Entrar" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">Entren Los Que Quieran Entrar</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/thisis-moby.avif" alt="Moby" title="Moby" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">Moby</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/portada-blink182-one-more-time.avif" alt="One More Time" title="One More Time" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">One More Time</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/thisis-soft-kill.avif" alt="Soft Kill" title="Soft Kill" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">Soft Kill</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="listA">
+                                            <div class="listA-cover">
+                                                <img src="./images/caratulas/cd-supermodel.avif" alt="Supermodel" title="Supermodel" width="76" height="76">
+                                            </div>
+                                            <div class="listA-info">
+                                                <h2 class="listA-name"><a class="link" href="">Supermodel</a></h2>
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section aria-labelledby="section2">
+                                <div class="section">
+                                    <div class="section-nav">
+                                        <h2 id="section2" class="section-title">Escuchado recientemente</h2>
+                                        <div class="buttons-navigation">
+                                            <button class="buttonGeneric" aria-label="Ir Atras" title="Ir Atras">
+                                                <i class="icon-arrowLeft" aria-hidden="true"></i>
+                                            </button>
+                                            <button class="buttonGeneric" aria-label="Ir Adelante" title="Ir Adelante">
+                                                <i class="icon-arrowRight" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="section-listB">
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/descubrimiento-semanal.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Descubrimiento Semanal</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Varios Artistas</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/thisis-patrick-watson.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">This is Patrick Watson</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Artista</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/cd-teal-album.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Teal Album</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Weezer</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/cd-calendar.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Calendar</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Motorama</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/your-top-songs-2022.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Your Top Songs 2022</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Varios Artistas</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/thisis-the-killers.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">This The Killers</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Artista</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/artist-blink182.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">This is Blink 182</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Artista</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/white-lies.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Five</a></p>
+                                            <p class="listB-artist"><a class="link" href="">White Lies</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/artist-sleeping.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">The Sleeping</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Artista</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/artist-daftpunk.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">LGBTM (Studio Outtakes)</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Daft Punk</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/your-top-songs-2023.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Your Top Songs 2023</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Varios Artistas</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/cd-balsamo.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Camiches</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Artista</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section aria-labelledby="section3">
+                                <div class="section">
+                                    <div class="section-nav">
+                                        <h2 id="section3" class="section-title">Podcast</h2>
+                                        <div class="buttons-navigation">
+                                            <button class="buttonGeneric" aria-label="Ir Atras" title="Ir Atras">
+                                                <i class="icon-arrowLeft" aria-hidden="true"></i>
+                                            </button>
+                                            <button class="buttonGeneric" aria-label="Ir Adelante" title="Ir Adelante">
+                                                <i class="icon-arrowRight" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="section-listB">
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/podcast-duolingo.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Relatos En Ingles</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Duolingo</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/podcast-radioovni.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">RadioOvni</a></p>
+                                            <p class="listB-artist"><a class="link" href="">RadioOvni</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/podcast-desarrollo.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Tu Desarrollo Personal</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Mente_Presocratica</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/podcast-libertad.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Libertad Financiera</a></p>
+                                            <p class="listB-artist"><a class="link" href="">AudioBooks</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/podcast-ted.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">TED En Español</a></p>
+                                            <p class="listB-artist"><a class="link" href="">TED</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/podcast-edteam.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">ED team</a></p>
+                                            <p class="listB-artist"><a class="link" href="">ED team</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/podcast-tuingles.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Tu Ingles</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Tu Ingles</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/podcast-leyendas.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Leyendas Lengendarias</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Leyendas Legendarias</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/podcast-habitos.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Habitos Atomicos</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Audio Libro</a></p>
+                                        </div>
+                                        <div class="listB">
+                                            <div class="listB-cover">
+                                                <img src="./images/caratulas/podcast-listening.avif" alt="" width="150" height="150">
+                                                <button class="buttonCircle is-primary" aria-label="Reproducir" title="Reproducir">
+                                                    <i class="icon-play" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <p class="listB-title"><a class="link" href="">Listening</a></p>
+                                            <p class="listB-artist"><a class="link" href="">Listening</a></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </main>
+                </div>
+            </div>
+
+            <div class="layout-slider">
+                <div class="slider">
+                    <div class="logo-container">
+                        <div class="logo-cover">
+                            <img src="./images/spotifu-logo.png" alt="Logo Spotifu" title="Logo Spotifu" width="112" height="32">
+                        </div>
+                    </div>
+                    <div class="menu-container">
+                        <nav class="menu">
+                            <ul class="menu-list">
+                                <li class="menu-item active">
+                                    <i class="icon-home"></i>
+                                    <span>Inicio</span>
+                                </li>
+                                <li class="menu-item">
+                                    <i class="icon-search"></i>
+                                    <span>Buscar</span>
+                                </li>
+                                <li class="menu-item">
+                                    <i class="icon-creditCard"></i>
+                                    <span>Premium</span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="library-container">
+                        <nav class="library" aria-labelledby="library">
+                            <h2 id="library" class="library-title">Tu Biblioteca</h2>
+                            <ul class="library-list">
+                                <li class="library-item"><a href="" class="link">Creada para ti</a></li>
+                                <li class="library-item"><a href="" class="link">Escuchado recientemente</a></li>
+                                <li class="library-item"><a href="" class="link">Tus Me Gusta</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="playlist-container">
+                        <nav class="playlist" aria-labelledby="playlist">
+                            <h2 id="playlist" class="playlist-title">Playlist</h2>
+                            <ul class="playlist-list">
+                                <li class="playlist-item"><a href="" class="link">Shasam</a></li>
+                                <li class="playlist-item"><a href="" class="link">Kings of Leon</a></li>
+                                <li class="playlist-item"><a href="" class="link">The Big Deep</a></li>
+                                <li class="playlist-item"><a href="" class="link">My Top Songs 2022</a></li>
+                                <li class="playlist-item"><a href="" class="link">Camiches</a></li>
+                                <li class="playlist-item"><a href="" class="link">GLBTM (Studio Outtakes)</a></li>
+                                <li class="playlist-item"><a href="" class="link">AC/DC</a></li>
+                                <li class="playlist-item"><a href="" class="link">Coldplay</a></li>
+                                <li class="playlist-item"><a href="" class="link">The Sleeping</a></li>
+                                <li class="playlist-item"><a href="" class="link">Blink 182</a></li>
+                                <li class="playlist-item"><a href="" class="link">ONE MORE TIME/MORE THAN YOU KNOW</a></li>
+                                <li class="playlist-item"><a href="" class="link">Patrick Watson</a></li>
+                                <li class="playlist-item"><a href="" class="link">Wolves</a></li>
+                                <li class="playlist-item"><a href="" class="link">When You See Yourself</a></li>
+                                <li class="playlist-item"><a href="" class="link">Daft Punk</a></li>
+                                <li class="playlist-item"><a href="" class="link">Human Tetris</a></li>
+                                <li class="playlist-item"><a href="" class="link">Residente</a></li>
+                                <li class="playlist-item"><a href="" class="link">The Party</a></li>
+                                <li class="playlist-item"><a href="" class="link">Soft Kill</a></li>
+                                <li class="playlist-item"><a href="" class="link">BADBADNOTGOOD</a></li>
+                                <li class="playlist-item"><a href="" class="link">Always The End</a></li>
+                                <li class="playlist-item"><a href="" class="link">My Echo, My Shadow, My Covers & Me</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="layout-block">
+            <div class="layout-footer">
+                <footer class="reproductor">
+                    <div class="reproductor-song">
+                        <div class="song">
+                            <div class="song-cover">
+                                <img src="./images/caratulas/cd-entren-los-que-quieran-entrar.avif" alt="Entren los que queran entrar, Calle 13" title="Entren los que queran entrar, Calle 13" width="56" height="56">
+                            </div>
+                            <div class="song-info">
+                                <div class="song-name">
+                                    <p class="song-title"><a class="link">La Vuelta al Mundo</a></p>
+                                    <p class="song-artist"><a class="link">Calle 13</a></p>
+                                </div>
+                                <div class="song-heart">
+                                    <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                        <i class="icon-heart" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reproductor-progress">
+                        <div class="reproductor-slider">
+                            <div class="reproductor-buttonList">
+                                <button class="buttonCircle" aria-label="Regresar" title="Regresar">
+                                    <i class="icon-prev" aria-hidden="true"></i> 
+                                </button>
+                        
+                                <button class="buttonCircle is-white" aria-label="Reproducir" title="Reproducir">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                        
+                                <button class="buttonCircle" aria-label="Adelantar" title="Adelantar">
+                                    <i class="icon-next" aria-hidden="true"></i> 
+                                </button>
+                            </div>
+                            <div class="reporductor-progress">
+                                <span class="time">1:50</span>
+                                <div class="progress">
+                                    <div class="progress-time">
+                                        <div class="progress-button"></div>
+                                    </div>
+                                </div>
+                                <span class="time">3:25</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reproductor-volume">
+                        <div class="volume">
+                            <button class="reproductorButton" aria-label="Silenciar" title="Silenciar" aria-labelledby="volume">
+                                <i class="icon-volumeUp" aria-label="Volumen alto" id="volume"></i>
+                            </button>
+                            <div class="volume-bar">
+                                <div class="progress">
+                                    <div class="progress-time">
+                                        <div class="progress-button"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

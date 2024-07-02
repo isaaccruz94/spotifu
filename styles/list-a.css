@@ -1,0 +1,50 @@
+@import "section.css";
+
+.section-listA{
+    display: flex;
+    gap: 1rem;
+    overflow: auto;
+    padding-inline-start: 2rem;
+}
+.listA{
+    inline-size: 17.56rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    overflow: hidden;
+    background-color: var(--gray30);
+    cursor: pointer;
+    transition: background .3s;
+}
+.listA:hover,
+.listA:focus-within{
+    background-color: var(--gray20);
+}
+.listA-cover{
+    inline-size: 4.75rem;
+    block-size: 4.75rem;
+}
+.listA-cover img{
+    inline-size: 100%;
+    block-size: 100%;
+}
+.listA-info{
+    display: flex;
+    align-items: center;
+    padding-inline: 1rem;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.listA-name{
+    font: var(--baseFontBold);
+    color: var(--white);
+}
+.listA-info button{
+    opacity: 0;
+    transition: opacity .3s;
+}
+.listA:hover button,
+.listA:focus-within button{
+    opacity: 1;
+}

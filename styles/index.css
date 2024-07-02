@@ -1,0 +1,40 @@
+@import "fonts.css";
+@import "icon-fonts.css";
+@import "body.css";
+@import "buttons.css";
+@import "link.css";
+@import "reproductor.css";
+@import "slider.css";
+@import "main.css";
+@import "layout.css";
+@import "scroll.css";
+@import "artist.css";
+
+
+:root{
+    font-size: 16px;
+    --primary: #00B050;
+    --white: #ffffff;
+    --gray10: #B3B3B3;
+    --gray20: #737373;
+    --gray30: #282828;
+    --gray40: #181818;
+    --gray50: #121212;
+    --gray60: #000000;
+    --font: Avenir, Helvetica, sans-serif;
+    --headline1: bold 2rem/normal var(--font);
+    --headline2: bold 1.5rem/1.75rem var(--font);
+    --baseFont: normal .875rem/1.375rem var(--font);
+    --baseFontBold: bold .875rem/1.375rem var(--font);
+    --button: normal .875rem/1rem var(--font);
+    --small: normal .75em/1rem var(--font);
+}
+
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    backdrop-filter: blur(5px);
+    inline-size: calc(100vw - var(--sidebarInlineSize));
+}

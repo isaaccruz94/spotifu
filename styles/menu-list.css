@@ -1,0 +1,30 @@
+.menu{
+
+}
+.menu-list{
+    margin: 0;
+    padding: 0;
+}
+.menu-item{
+    padding-inline: 1.5rem;
+    padding-block: .5rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.menu-item.active{
+    box-shadow: inset .25rem 0 0 var(--primary);
+    color: var(--white);
+}
+.menu-item i{
+    font-size: 1.5rem;
+}
+.menu-item span{
+    font: var(--button);
+}
+.menu-item.active [class="icon-home"]::before{
+    content: "\e90a";
+}
+.menu-item.active [class="icon-search"]::before{
+    content: "\e914";
+}

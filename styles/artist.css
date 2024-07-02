@@ -1,0 +1,81 @@
+.main-artist{
+    background-image:linear-gradient(to top, var(--gray60) 35%, transparent), url(../images/headers/hero-kingsofleon.avif);
+    inline-size: calc(100vw - var(--sidebarInlineSize));
+    overflow-x: hidden;
+    block-size: 100vh;
+    background-size: cover;
+    background-position: -15rem;
+}
+.artist{
+    margin-block-start: 10rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.artist-title{
+    font: var(--headline1);
+    color: var(--white);
+    margin: 0;
+}
+.artist-rep{
+    font: var(--baseFontBold);
+    color: var(--white);
+    margin: 0;
+}
+.artist-songs{
+    padding-inline: 1rem;
+
+}
+.artist-form{
+    position: relative;
+}
+.artist-form i{
+    color: var(--white);
+    position: absolute;
+    font-size: 1rem;
+}
+.artist-form input{
+    background: none;
+    border:none;
+    inline-size: 100%;
+    border-bottom: .1rem solid var(--white);
+    padding-inline: 1.5rem;
+    color: var(--white);
+}
+.artist-form input::placeholder{
+    color: var(--white);
+}
+.artist-radio{
+    color: var(--white);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.artist-time{
+    display: flex;
+    gap: 1rem;
+}
+.artist-radio > *{
+    flex: 1;
+}
+.artist-songs{
+    margin-block-start: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.artist-titulo{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.titulo{
+    justify-content: center;
+}
+.artist-time{
+    display: flex;
+    justify-content: center;
+}

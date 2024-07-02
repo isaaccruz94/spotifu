@@ -1,0 +1,11 @@
+@import "user-profile.css";
+@import "formulario.css";
+
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+    padding-block: .8rem;
+}
