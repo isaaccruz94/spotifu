@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotifu</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preload" href="../styles/index.css" as="style">
+    <link rel="stylesheet" href="../styles/index.css">
+
+</head>
+<body class="body">
+    <div class="layout">
+        <div class="layout-block">
+            <div class="layout-main">
+                <div class="main-artist">
+                    <header class="header">
+                        <div class="header-navigation">
+                            <div class="form-buttons">
+                                <div class="buttons-navigation">
+                                    <button class="buttonGeneric" aria-label="Ir Atras" title="Ir Atras">
+                                        <i class="icon-arrowLeft" aria-hidden="true"></i>
+                                    </button>
+                                    <button class="buttonGeneric" aria-label="Ir Adelante" title="Ir Adelante">
+                                        <i class="icon-arrowRight" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <form class="form" aria-label="Busqueda por Artista, Canciones o Podcast">
+                                    <i class="icon-search" aria-hidden="true"></i>
+                                    <input type="search" placeholder="Artistas, Canciones o Podcast">
+                                </form>
+                            </div>
+                            <div class="userProfile">
+                                <div class="userProfile-cover">
+                                    <img src="../images/profile.avif" alt="Foto de perfil" title="Foto de perfil" width="28" height="28">
+                                </div>
+                                <div class="userProfile-name">
+                                    <p><a class="link" href="">Cruz Herrera</a></p>
+                                </div>
+                                <button aria-label="Desplegar" title="Desplegar">
+                                    <i class="icon-vector" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </header>
+                    <main>
+                        <div class="artist-container">
+                            <div class="artist">
+                                <h1 class="artist-title">Kings of Leon</h1>
+                                <p class="artist-rep">21,865,620 Reproducciones Mensuales</p>
+                                <button class="buttonArtist">
+                                    <span>REPRODUCIR</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="artist-songs">
+                            <div class="artist-form">
+                                <form class="artist-form" aria-label="Filtrar">
+                                    <i class="icon-search"></i>
+                                    <input type="search" name="" id="" placeholder="Filtrar">
+                                </form>
+                            </div>
+                        
+                            <div class="artist-radio">
+                                <div class="artist-titulo titulo">
+                                    <p>Titulo</p>
+                                </div>
+                                <div class="artist-artista">
+                                    <p>Artista</p>
+                                </div>
+                                <div class="artist-album">
+                                    <p>Album</p>
+                                </div>
+                                <div class="artist-time">
+                                    <button class="reproductorButton" aria-label="fecha de salida">
+                                        <i class="icon-calendar" aria-hidden="true"></i>
+                                    </button>
+                                    <button class="reproductorButton" class="Duracion">
+                                        <i class="icon-clock" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>When You See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>5:47</span>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>The Bandith</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>4:10</span>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>100,000 people</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>5:44</span>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>Stormy Weather</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>4:10</span>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>A Weave</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>5:23</span>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>Golden Restless Age</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>4:33</span>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>Time in Desguise</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>4:45</span>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>Supermarket</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>4:58</span>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>Claire & Eddie</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>4:45</span>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>Echoing</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>3:37</span>
+                                </div>
+                            </div>
+                            <div class="artist-radio">
+                                <div class="artist-titulo">
+                                    <div class="artist-buttonPlay">
+                                        <button class="buttonPlay" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-buttonHeart">
+                                        <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="artist-titleSong">
+                                        <p>Fairytale</p>
+                                    </div>
+                                </div>
+                                <div class="artist-artista">
+                                    <div class="artist-nameBand">
+                                        <p>Kings of Leon</p>
+                                    </div>
+                                </div>
+                                <div class="artist-album">
+                                    <div class="artist-artistAlbum">
+                                        <p>When you See Yourself</p>
+                                    </div>
+                                </div>
+                                <div class="artist-time">
+                                    <span>2021-02-10</span>
+                                    <span>3:55</span>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+
+            </div>
+            <div class="layout-slider">
+                <div class="slider">
+                    <div class="logo-container">
+                        <div class="logo-cover">
+                            <img src="../images/spotifu-logo.png" alt="Logo Spotifu" title="Logo Spotifu" width="112" height="32">
+                        </div>
+                    </div>
+                    <div class="menu-container">
+                        <nav class="menu">
+                            <ul class="menu-list">
+                                <li class="menu-item active">
+                                    <i class="icon-home"></i>
+                                    <span>Inicio</span>
+                                </li>
+                                <li class="menu-item">
+                                    <i class="icon-search"></i>
+                                    <span>Buscar</span>
+                                </li>
+                                <li class="menu-item">
+                                    <i class="icon-creditCard"></i>
+                                    <span>Premium</span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="library-container">
+                        <nav class="library" aria-labelledby="library">
+                            <h2 id="library" class="library-title">Tu Biblioteca</h2>
+                            <ul class="library-list">
+                                <li class="library-item"><a href="" class="link">Creada para ti</a></li>
+                                <li class="library-item"><a href="" class="link">Escuchado recientemente</a></li>
+                                <li class="library-item"><a href="" class="link">Tus Me Gusta</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="playlist-container">
+                        <nav class="playlist" aria-labelledby="playlist">
+                            <h2 id="playlist" class="playlist-title">Playlist</h2>
+                            <ul class="playlist-list">
+                                <li class="playlist-item"><a href="" class="link">Shasam</a></li>
+                                <li class="playlist-item"><a href="" class="link">Kings of Leon</a></li>
+                                <li class="playlist-item"><a href="" class="link">The Big Deep</a></li>
+                                <li class="playlist-item"><a href="" class="link">My Top Songs 2022</a></li>
+                                <li class="playlist-item"><a href="" class="link">Camiches</a></li>
+                                <li class="playlist-item"><a href="" class="link">GLBTM (Studio Outtakes)</a></li>
+                                <li class="playlist-item"><a href="" class="link">AC/DC</a></li>
+                                <li class="playlist-item"><a href="" class="link">Coldplay</a></li>
+                                <li class="playlist-item"><a href="" class="link">The Sleeping</a></li>
+                                <li class="playlist-item"><a href="" class="link">Blink 182</a></li>
+                                <li class="playlist-item"><a href="" class="link">ONE MORE TIME/MORE THAN YOU KNOW</a></li>
+                                <li class="playlist-item"><a href="" class="link">Patrick Watson</a></li>
+                                <li class="playlist-item"><a href="" class="link">Wolves</a></li>
+                                <li class="playlist-item"><a href="" class="link">When You See Yourself</a></li>
+                                <li class="playlist-item"><a href="" class="link">Daft Punk</a></li>
+                                <li class="playlist-item"><a href="" class="link">Human Tetris</a></li>
+                                <li class="playlist-item"><a href="" class="link">Residente</a></li>
+                                <li class="playlist-item"><a href="" class="link">The Party</a></li>
+                                <li class="playlist-item"><a href="" class="link">Soft Kill</a></li>
+                                <li class="playlist-item"><a href="" class="link">BADBADNOTGOOD</a></li>
+                                <li class="playlist-item"><a href="" class="link">Always The End</a></li>
+                                <li class="playlist-item"><a href="" class="link">My Echo, My Shadow, My Covers & Me</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="layout-block">
+            <div class="layout-footer">
+                <footer class="reproductor">
+                    <div class="reproductor-song">
+                        <div class="song">
+                            <div class="song-cover">
+                                <img src="../images/caratulas/cd-entren-los-que-quieran-entrar.avif" alt="Entren los que queran entrar, Calle 13" title="Entren los que queran entrar, Calle 13" width="56" height="56">
+                            </div>
+                            <div class="song-info">
+                                <div class="song-name">
+                                    <p class="song-title"><a class="link">La Vuelta al Mundo</a></p>
+                                    <p class="song-artist"><a class="link">Calle 13</a></p>
+                                </div>
+                                <div class="song-heart">
+                                    <button class="reproductorButton" aria-label="Eliminar" title="Eliminar" role="switch" aria-checked="true">
+                                        <i class="icon-heart" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reproductor-progress">
+                        <div class="reproductor-slider">
+                            <div class="reproductor-buttonList">
+                                <button class="buttonCircle" aria-label="Regresar" title="Regresar">
+                                    <i class="icon-prev" aria-hidden="true"></i> 
+                                </button>
+                        
+                                <button class="buttonCircle is-white" aria-label="Reproducir" title="Reproducir">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                        
+                                <button class="buttonCircle" aria-label="Adelantar" title="Adelantar">
+                                    <i class="icon-next" aria-hidden="true"></i> 
+                                </button>
+                            </div>
+                            <div class="reporductor-progress">
+                                <span class="time">1:50</span>
+                                <div class="progress">
+                                    <div class="progress-time">
+                                        <div class="progress-button"></div>
+                                    </div>
+                                </div>
+                                <span class="time">3:25</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reproductor-volume">
+                        <div class="volume">
+                            <button class="reproductorButton" aria-label="Silenciar" title="Silenciar" aria-labelledby="volume">
+                                <i class="icon-volumeUp" aria-label="Volumen alto" id="volume"></i>
+                            </button>
+                            <div class="volume-bar">
+                                <div class="progress">
+                                    <div class="progress-time">
+                                        <div class="progress-button"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
