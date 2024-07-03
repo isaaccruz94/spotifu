@@ -1,0 +1,24 @@
+.podcast-headerBar{
+    display: flex;
+    border-bottom: 1px solid var(--white);
+    color: var(--white);
+    align-items: center;
+    text-transform: uppercase;
+}
+.podcast-headerBar > *{
+    flex: 1;
+}
+.headerBar-title{
+    display: flex;
+    gap: 3rem;
+}
+.headerBar-album{
+    
+}
+.headerBar-fecha{
+}
+.headerBar-button{
+    
+}
+.headerBar-content{
+}

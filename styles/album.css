@@ -1,0 +1,35 @@
+.album-artist{
+    margin-block:1.5rem;
+    padding: 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.album-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+.album-artistCover{
+    inline-size: 19rem;
+    block-size: 19rem;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.album-info-title h1{
+    font: var(--headline1);
+    font-size: 5rem;
+    color: var(--white);
+    margin: 0;
+}
+.album-info-artist p{
+    color: var(--gray10);
+}
+.album-info-artist span{
+    font: var(--baseFontBold);
+    color: var(--white);
+}
+.album-info-button p{
+    margin: 0;
+    text-transform: uppercase;
+}

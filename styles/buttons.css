@@ -49,6 +49,7 @@
     border: 0;
     border-radius: 1rem;
     color: var(--white);
+    cursor: pointer;
 }
 .buttonPlay{
     inline-size: 1.5rem;
@@ -64,4 +65,37 @@
     position: relative;
     left: 1px;
     bottom: 1px;
+}
+.followButton{
+    padding-inline: 1.5rem;
+    padding-block: .5rem;
+    border-radius: 1rem;
+    background: none;
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+.followButton:hover{
+    border-color: var(--gray60);
+    background-color: var(--white);
+}
+.followButton p{
+    font: var(--);
+    margin: 0;
+    color: var(--white);
+}
+.followButton:hover p{
+    color: var(--gray60);
+}
+.bigButton{
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+    border-radius: 50%;
+    border: none;
+    background: var(--primary);
+}
+.bigButton i{
+    font-size: 1rem;
+    color: var(--white);
+    position: relative;
+    left: .1rem;
 }

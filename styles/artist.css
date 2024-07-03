@@ -2,7 +2,6 @@
     background-image:linear-gradient(to top, var(--gray60) 35%, transparent), url(../images/headers/hero-kingsofleon.avif);
     inline-size: calc(100vw - var(--sidebarInlineSize));
     overflow-x: hidden;
-    block-size: 100vh;
     background-size: cover;
     background-position: -15rem;
 }
@@ -16,6 +15,7 @@
 }
 .artist-title{
     font: var(--headline1);
+    font-size: 5rem;
     color: var(--white);
     margin: 0;
 }

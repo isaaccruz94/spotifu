@@ -1,0 +1,33 @@
+.podcast-reproductor{
+    display: flex;
+}
+.podcast-reproductor > *{
+    flex: 1;
+}
+.podcastBar-number{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.podcastBar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.podcastBar-info{
+    display: flex;
+    flex-direction: column;
+}
+.podcastBar-info p{
+    margin: 0;
+}
+.podcastBar-numero p{
+    margin: 0;
+}
+.podcastBar-duration{
+    display: flex
+}
+.headerBar-content{
+    justify-content: center;
+    color: aquamarine;
+}

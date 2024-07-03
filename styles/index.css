@@ -9,6 +9,10 @@
 @import "layout.css";
 @import "scroll.css";
 @import "artist.css";
+@import "album.css";
+@import "podcast-info.css";
+@import "podcast-bar.css";
+@import "podcast-bar-content.css";
 
 
 :root{
@@ -37,4 +41,14 @@
     z-index: 5;
     backdrop-filter: blur(5px);
     inline-size: calc(100vw - var(--sidebarInlineSize));
+}
+.tipo{
+    color: var(--white);
+    text-transform: uppercase;
+}
+.podcast-container{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    gap: 2rem;
 }

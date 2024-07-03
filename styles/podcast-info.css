@@ -1,0 +1,36 @@
+
+.podcast{
+    margin-block: 2rem;
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 1.5rem;
+    align-items: end;
+}
+.podcast-info{
+
+}
+.podcast-artist{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.podcast-cover{
+    inline-size: 14.5rem;
+    block-size: 14.5rem;
+}
+.podcast-cover img{
+    inline-size: 100%;
+    block-size: 100%;
+}
+.podcast-title h1{
+    font: var(--headline1);
+    color: var(--white);
+    font-size: 5rem;
+    margin: 0;
+}
+.podcast-artist h2{
+    font: var(--headline2);
+    color: var(--white);
+    font-size: 2rem;
+    margin: 0;
+}

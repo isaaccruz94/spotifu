@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotifu</title>
+    <meta property="og:title" content="Spotifu" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://isaaccruz94.github.io/spotifu/" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/isaaccruz94/spotifu/main/images/isaaccruz94.github.io_spotifu_.png" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:description" content="Pagina Creada solo con HTML semantico y CSS (flex-box)." />
     <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
@@ -62,7 +68,8 @@
                     <main>
                         <div class="artist-container">
                             <div class="artist">
-                                <h1 class="artist-title">Kings of Leon</h1>
+                                <span class="tipo">PLAYLIST</span>
+                                <h1 class="artist-title"> This Is Kings Of Leon</h1>
                                 <p class="artist-rep">21,865,620 Reproducciones Mensuales</p>
                                 <button class="buttonArtist">
                                     <span>REPRODUCIR</span>
@@ -446,15 +453,19 @@
                 <div class="slider">
                     <div class="logo-container">
                         <div class="logo-cover">
-                            <img src="../images/spotifu-logo.png" alt="Logo Spotifu" title="Logo Spotifu" width="112" height="32">
+                            <a href="../index.html">
+                                <img src="../images/spotifu-logo.png" alt="Logo Spotifu" title="Logo Spotifu" width="112" height="32">
+                            </a>
                         </div>
                     </div>
                     <div class="menu-container">
                         <nav class="menu">
                             <ul class="menu-list">
                                 <li class="menu-item active">
-                                    <i class="icon-home"></i>
-                                    <span>Inicio</span>
+                                    <a href="../index.html" class="link">
+                                        <i class="icon-home"></i>
+                                        <span>Inicio</span>
+                                    </a>
                                 </li>
                                 <li class="menu-item">
                                     <i class="icon-search"></i>
@@ -483,28 +494,29 @@
                         <nav class="playlist" aria-labelledby="playlist">
                             <h2 id="playlist" class="playlist-title">Playlist</h2>
                             <ul class="playlist-list">
-                                <li class="playlist-item"><a href="" class="link">Shasam</a></li>
-                                <li class="playlist-item"><a href="" class="link">Kings of Leon</a></li>
-                                <li class="playlist-item"><a href="" class="link">The Big Deep</a></li>
-                                <li class="playlist-item"><a href="" class="link">My Top Songs 2022</a></li>
-                                <li class="playlist-item"><a href="" class="link">Camiches</a></li>
-                                <li class="playlist-item"><a href="" class="link">GLBTM (Studio Outtakes)</a></li>
-                                <li class="playlist-item"><a href="" class="link">AC/DC</a></li>
-                                <li class="playlist-item"><a href="" class="link">Coldplay</a></li>
-                                <li class="playlist-item"><a href="" class="link">The Sleeping</a></li>
-                                <li class="playlist-item"><a href="" class="link">Blink 182</a></li>
-                                <li class="playlist-item"><a href="" class="link">ONE MORE TIME/MORE THAN YOU KNOW</a></li>
-                                <li class="playlist-item"><a href="" class="link">Patrick Watson</a></li>
-                                <li class="playlist-item"><a href="" class="link">Wolves</a></li>
-                                <li class="playlist-item"><a href="" class="link">When You See Yourself</a></li>
-                                <li class="playlist-item"><a href="" class="link">Daft Punk</a></li>
-                                <li class="playlist-item"><a href="" class="link">Human Tetris</a></li>
-                                <li class="playlist-item"><a href="" class="link">Residente</a></li>
-                                <li class="playlist-item"><a href="" class="link">The Party</a></li>
-                                <li class="playlist-item"><a href="" class="link">Soft Kill</a></li>
-                                <li class="playlist-item"><a href="" class="link">BADBADNOTGOOD</a></li>
-                                <li class="playlist-item"><a href="" class="link">Always The End</a></li>
-                                <li class="playlist-item"><a href="" class="link">My Echo, My Shadow, My Covers & Me</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Shasam</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Kings of Leon</a></li>
+                                <li class="playlist-item"><a href="./album.html" class="link">The Big Deep</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">My Top Songs 2022</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Camiches</a></li>
+                                <li class="playlist-item"><a href="./album.html" class="link">GLBTM (Studio Outtakes)</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">AC/DC</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Coldplay</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">The Sleeping</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Blink 182</a></li>
+                                <li class="playlist-item"><a href="./album.html" class="link">ONE MORE TIME/MORE THAN YOU KNOW</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Patrick Watson</a></li>
+                                <li class="playlist-item"><a href="./album.html" class="link">Wolves</a></li>
+                                <li class="playlist-item"><a href="./album.html" class="link">When You See Yourself</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Daft Punk</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Human Tetris</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Soft Kill</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Residente</a></li>
+                                <li class="playlist-item"><a href="./album.html" class="link">The Party</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">Soft Kill</a></li>
+                                <li class="playlist-item"><a href="./artist.html" class="link">BADBADNOTGOOD</a></li>
+                                <li class="playlist-item"><a href="./album.html" class="link">Always The End</a></li>
+                                <li class="playlist-item"><a href="./album.html" class="link">My Echo, My Shadow, My Covers & Me</a></li>
                             </ul>
                         </nav>
                     </div>
